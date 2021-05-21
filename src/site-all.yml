@@ -1,0 +1,59 @@
+title: Kiebitz
+pages:
+  - src|f|exists?: "{target_language}/index.md"
+    title|t: Kiebitz Dokumentation
+    navtitle|t: Start
+    name: ''
+  - title|t: System
+    name: system
+    slug||slugify: system
+    children:
+    - title|t: Überblick
+      src|f|exists?: "{target_language}/system/index.md" 
+      name: ''
+      slug||slugify: ueberlick
+    - title|t: APIs
+      src|f|exists?: "{target_language}/system/api.md" 
+      name: apis
+      slug||slugify: apis
+    - title|t: Apps
+      src|f|exists?: "{target_language}/system/apps.md" 
+      name: apps
+      slug||slugify: apps
+    - title|t: Deployment
+      src|f|exists?: "{target_language}/system/deployment.md" 
+      name: deployment
+      slug||slugify: deployment
+    - title|t: Schlüsselmanagement
+      src|f|exists?: "{target_language}/system/key-management.md" 
+      name: key-management
+      slug||slugify: schluesselmanagement
+  - title|t: Protokoll
+    name: protocol
+    slug||slugify: Protokoll
+    src|f|exists?: "{target_language}/protocol/index.md"
+  - title|t: Datenschutz
+    slug||slugify: Datenschutz
+    name: data-protection
+    children:
+      - title|t: DSK-Empfehlungen
+        src|f|exists?: "{target_language}/legal/dsk.md"
+        name: dsk
+  - title|t: Analysen
+    name: analyses
+    slug||slugify: Analysen
+    children:
+      - title|t: Risiken
+        src|f|exists?: "{target_language}/analyses/risks.md"
+        name: risks
+        slug||slugify: risiken
+#  - title|t: Artikel
+#    name: articles
+#    no_submenu: true
+#    slug||slugify: Artikel
+#    src|f|exists?: "{target_language}/articles/index.md"
+#    children: []
+  - title|t: Kontakt
+    name: imprint
+    slug||slugify: Kontakt
+    src|f|exists?: "{target_language}/imprint.md"

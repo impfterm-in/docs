@@ -1,0 +1,504 @@
+036c18e3e222b771:
+  de: Diese Endpunkte sind für Nutzer und Anbieter vorgesehen.
+  en: These endpoints are intended for users and providers.
+078776c061ec9a26:
+  de: >-
+    * `deleteVerifiedProviderData(id bytes<id>)  -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`: Löscht verifizierte Anbieterdaten.
+  en: >-
+    * `deleteVerifiedProviderData(id bytes<id>)  -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`: Deletes verified provider data.
+0824e1c18f62c785:
+  de: >-
+    * `getTransferData(id bytes<8-32>) -> (enum<OK, ERR>, {OK:
+    bytes<1,8192>, ERR: Error})`: Erlaubt das Abrufen von verschlüsselten
+    Austauschdaten.
+  en: >-
+    * `getTransferData(id bytes<8-32>) -> (enum<OK, ERR>, {OK:
+    bytes<1,8192>, ERR: Error})`: Allows retrieval of encrypted
+    exchange data.
+0bc60f9b021e430f:
+  de: '### Nutzer-Anbieter Endpunkte'
+  en: '### User-Provider Endpoints'
+0bcedb383f1322d4:
+  de: '### Nutzer-Endpunkte'
+  en: '### User endpoints'
+0fef7f53cd121a9c:
+  de: '## Appointments-API'
+  en: '## Appointments API'
+126d01b05630787b:
+  de: >-
+    Diese Endpunkte sind für Anbieter und Vermittler vorgesehen,
+    welche sich durch JWT-Token authentifizieren.
+  en: >-
+    These endpoints are intended for providers and intermediaries
+    who authenticate through JWT tokens.
+131ea71c2135cd12:
+  de: >-
+    * `markTokenAsUsed(token)`: Markiert ein gegebenes Prioritätstoken
+    als genutzt.
+  en: >-
+    * `markTokenAsUsed(token)`: Marks a given priority token as
+    used.
+18d99ba4f263bcf6:
+  de: >-
+    Die Operator-API verfügt nur über authentifizierte Endpunkte.
+  en: The Operator API only has authenticated endpoints.
+19e6774db879485f:
+  de: >-
+    * `deleteVerifiedProviderData(id bytes<id>)  -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`: Löscht verifizierte, signierte
+    Anbieterdaten.
+  en: >-
+    * `deleteVerifiedProviderData(id bytes<id>)  -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`: Deletes verified signed provider
+    data.
+1c591ad2a9f510e2:
+  de: >-
+    * `deleteMessages(id bytes<32>) -> (enum<OK, ERR>, {OK: nil,
+    ERR: Error})`: Löscht alle unter der gegebenen `id` vorliegenden
+    Nachrichten.
+  en: >-
+    * `deleteMessages(id bytes<32>) -> (enum<OK, ERR>, {OK: nil,
+    ERR: Error})`: Deletes all messages present at the given `id`.
+1d583adb9c11592b:
+  de: >-
+    * `submitProviderData(data ProviderData) -> (enum<OK, ERR>,
+    {OK: nil, ERR: Error})`: Speichert Anbieterdaten zur Verifikation
+    durch einen Vermittler.
+  en: >-
+    * `submitProviderData(data ProviderData) -> (enum<OK, ERR>,
+    {OK: nil, ERR: Error})`: Stores provider data for verification
+    by an intermediary.
+1df779d0ba25faf9:
+  de: >-
+    * `deleteProviderData()  -> (enum<OK, ERR>, {OK: nil, ERR:
+    Error})`: Löscht Anbieterdaten.
+  en: >-
+    * `deleteProviderData()  -> (enum<OK, ERR>, {OK: nil, ERR:
+    Error})`: Deletes provider data.
+26bc15dfbae9a9f7:
+  de: >-
+    * `storeTransferData(id bytes<8-32>, data bytes<1,200kB>)
+    -> enum<OK, ERR>`: Erlaubt das Speichern von verschlüsselten
+    Austauschdaten.
+  en: >-
+    * `storeTransferData(id bytes<8-32>, data bytes<1,200kB>)
+    -> enum<OK, ERR>`: Allows the storage of encrypted exchange
+    data.
+279d0d7ca0e2a2a2:
+  de: >-
+    * `deleteQueueData(id bytes<32>)  -> (enum<OK, ERR>, {OK:
+    nil, ERR: Error})`: Löscht Daten zu einer Einzugsliste.
+  en: >-
+    * `deleteQueueData(id bytes<32>)  -> (enum<OK, ERR>, {OK:
+    nil, ERR: Error})`: Deletes data for a move-in list.
+27f0c023fccc3d56:
+  de: >-
+    * `getMessages(id bytes) -> (enum<OK, ERR>, {OK: list<Message>,
+    ERR: Error})`
+  en: >-
+    * `getMessages(id bytes) -> (enum<OK, ERR>, {OK: list<Message>,
+    ERR: Error})`
+2930f9ed89dfae83:
+  de: >-
+    Das Kibitz Backend-System besteht aus mehreren Diensten, die
+    jeweils eigenständige JSON-RPC APIs zur Verfügung stellen:
+  en: >-
+    The Kibitz backend system consists of several services, each
+    providing independent JSON-RPC APIs:
+361996ed35cd4f9e:
+  de: >-
+    * Eine **Appointments-API**, die verschlüsselte Kontaktdaten
+    speichert, Hashes publiziert und Besuchsdaten entgegennimmt.
+  en: >-
+    * An **Appointments API** that stores encrypted contact data,
+    publishes hashes, and accepts visit data.
+39d84c8074ae954b:
+  de: '# APIs'
+  en: '# APIs'
+3d7d037c2fbee0bf:
+  de: >-
+    * `submitToken(token bytes<32>, encryptedData bytes<10,1024>,
+    queueId bytes<32>) -> (enum<OK, ERR>, {OK: nil, ERR: Error})`:
+    Reiht ein Prioritätstoken in eine gegebene Einzugsliste ein.
+  en: >-
+    * `submitToken(token bytes<32>, encryptedData bytes<10,1024>,
+    queueId bytes<32>) -> (enum<OK, ERR>, {OK: nil, ERR: Error})`:
+    Enqueues a priority token to a given move-in list.
+3f1c5cd41ffa1a30:
+  de: >-
+    * `storeContactData(id bytes<16>, data EncryptedContactData)
+    -> enum<OK, ERR>`: Erlaubt das Speichern von verschlüsselten
+    Kontaktdaten im Rahmen der Initialisierung.
+  en: >-
+    * `storeContactData(id bytes<16>, data EncryptedContactData)
+    -> enum<OK, ERR>`: Allows the storage of encrypted contact
+    data as part of the initialization.
+3ff2e00ef7c13c94:
+  de: >-
+    * `publishHashes(hashes list<bytes<16>>, signature Signature)
+    -> enum<OK, ERR>`: Erlaubt das Ausschreiben von Hashes durch
+    Gesundheitsämter.
+  en: >-
+    * `publishHashes(hashes list<bytes<16>>, signature Signature)
+    -> enum<OK, ERR>`: Allows hashes to be posted by health departments.
+41844e6cbf4ba25b:
+  de: >-
+    * `deleteVerifiedProviderData(id bytes<32>)  -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`: Löscht verifizierte Anbieterdaten.
+  en: >-
+    * `deleteVerifiedProviderData(id bytes<32>)  -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`: Deletes verified provider data.
+419f32a9aacc1684:
+  de: >-
+    * `postMessage(id bytes<32>, message EncryptedMessage) ->
+    (enum<OK, ERR>, {OK: nil, ERR: Error})`: Speichert eine Nachricht
+    unter der gegebenen `id`.
+  en: >-
+    * `postMessage(id bytes<32>, message EncryptedMessage) ->
+    (enum<OK, ERR>, {OK: nil, ERR: Error})`: Saves a message at
+    the given `id`.
+428faa6440647bff:
+  de: >-
+    * `getTraces(hashes list<string>, signature Signature) ->
+    (enum<OK, ERR>, {OK: list<Trace>, ERR: Error})`: Erlaubt die
+    Abfrage von zurückgelieferten Besuchsdaten durch das anfragende
+    Gesundheitsamt.
+  en: >-
+    * `getTraces(hashes list<string>, signature Signature) ->
+    (enum<OK, ERR>, {OK: list<Trace>, ERR: Error})`: Allows the
+    requesting health department to query returned visit data.
+47fcc669cda5a0e0:
+  de: >-
+    * `deleteVerifiedProviderData(id bytes<id>)  -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`: Löscht Anbieterdaten.
+  en: >-
+    * `deleteVerifiedProviderData(id bytes<id>)  -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`: Deletes provider data.
+4caea7ea6c2fb651:
+  de: >-
+    * `submitToken(token bytes<32>, encryptedData bytes<,1024>,
+    queueId bytes<32>) -> (enum<OK, ERR>, {OK: nil, ERR: Error})`:
+    Reiht ein Prioritätstoken in eine gegebene Einzugsliste ein.
+  en: >-
+    * `submitToken(token bytes<32>, encryptedData bytes<,1024>,
+    queueId bytes<32>) -> (enum<OK, ERR>, {OK: nil, ERR: Error})`:
+    Enqueues a priority token to a given move-in list.
+52dd41f967185ba3:
+  de: >-
+    * `notify(recipient EncryptedRecipient,) -> enum<OK, ERR>`:
+    Erlaubt die Speicherung von Besuchsdaten durch einen Betreiber.
+  en: >-
+    * `notify(recipient EncryptedRecipient,) -> enum<OK, ERR>`:
+    Allows the storage of visit data by an operator.
+5465c643945480e6:
+  de: >-
+    * `markTokenAsUsed(token, code bytes<32>)`: Markiert ein gegebenes
+    Prioritätstoken als genutzt.
+  en: >-
+    * `markTokenAsUsed(token, code bytes<32>)`: Marks a given
+    priority token as used.
+54de59004e0649e2:
+  de: >-
+    Die folgenden Abschnitte beschreiben die von den APIs angebotenen
+    Methoden.
+  en: >-
+    The following sections describe the methods offered by the
+    APIs.
+5b7cdde67e016398:
+  de: >-
+    * `storeVerifiedProviderData(data SignedProviderData)  ->
+    (enum<OK, ERR>, {OK: nil, ERR: Error})`: Speichert verifizierte,
+    signierte Anbieterdaten.
+  en: >-
+    * `storeVerifiedProviderData(data SignedProviderData)  ->
+    (enum<OK, ERR>, {OK: nil, ERR: Error})`: Stores verified,
+    signed provider data.
+5ea0d5b321410c6b:
+  de: >-
+    * `deleteTransferData(id bytes<8-32>, hash bytes<8-32>) ->
+    (enum<OK, ERR>, {OK: bytes<1,8192>, ERR: Error})`: Erlaubt
+    das Löschen einzelner verschlüsselter Austauschdaten basierend
+    auf deren Hashwert.
+  en: >-
+    * `deleteTransferData(id bytes<8-32>, hash bytes<8-32>) ->
+    (enum<OK, ERR>, {OK: bytes<1,8192>, ERR: Error})`: Allows
+    individual encrypted exchange data to be deleted based on
+    its hash value.
+6015879e7accc684:
+  de: >-
+    Die Notifications-API verfügt nur über authentifizierte Endpunkte.
+  en: The Notifications API only has authenticated endpoints.
+61081cc0a53cb7a8:
+  de: >-
+    * `markTokenAsUsed(token bytes<32>)`: Markiert ein gegebenes
+    Prioritätstoken als genutzt. Es kann dann nicht mehr genutzt
+    werden.
+  en: >-
+    * `markTokenAsUsed(token bytes<32>)`: Marks a given priority
+    token as used. It can then no longer be used.
+61ed7a00989069e4:
+  de: >-
+    * `getAllHashes() -> (enum<OK, ERR>, {OK: {hashes: list<bytes<16>>,
+    salt: bytes<16>}, ERR: Error})`: Erlaubt das Abfrufen aller
+    jemals ausgeschriebenen Hashes.
+  en: >-
+    * `getAllHashes() -> (enum<OK, ERR>, {OK: {hashes: list<bytes<16>>,
+    salt: bytes<16>}, ERR: Error})`: Allows retrieval of all hashes
+    ever written out.
+70a661e9a38f0ec3:
+  de: >-
+    * `getSettings(id bytes<32>) -> (enum<OK, ERR>, {OK: bytes<1,8192>,
+    ERR: Error})`: Erlaubt das Abrufen von verschlüsselten Benutzer-Einstellungen.
+  en: >-
+    * `getSettings(id bytes<32>) -> (enum<OK, ERR>, {OK: bytes<1,8192>,
+    ERR: Error})`: Allows retrieval of encrypted user settings.
+749009d6bcb98d30:
+  de: >-
+    * Eine **Notifications-API**, die optional Benachrichtigungen
+    an Nutzer verschickt.
+  en: >-
+    * A **Notifications API** that optionally sends notifications
+    to users.
+7c10611b80e2a5be:
+  de: >-
+    * Eine **Storage-API**, die (optional) verschlüsselte Einstellungen
+    von Nutzern und Anbietern speichert.
+  en: >-
+    * A **storage API** that (optionally) stores encrypted user
+    and provider settings.
+7ebbc4ba99603ce5:
+  de: >-
+    * `postMessage(id bytes<32>, message EncryptedMessage) ->
+    (enum<OK, ERR>, {OK: nil, ERR: Error})`: Speichert eine Nachricht
+    unter der gegebenen `id`. Lediglich Anbieter können Nachrichten
+    unter eine bis dato unbekannten `id` speichern.
+  en: >-
+    * `postMessage(id bytes<32>, message EncryptedMessage) ->
+    (enum<OK, ERR>, {OK: nil, ERR: Error})`: Saves a message under
+    the given `id`. Only providers can save messages under a previously
+    unknown `id`.
+8fa3e4747a170fa8:
+  de: >-
+    * `getToken(hash bytes<32>) -> (enum<OK, ERR>, {OK: {token
+    bytes<32>, signature bytes<32>}, ERR: Error})`: Liefert ein
+    für den gegebenen `hash` signiertes Prioritätstoken zurück.
+  en: >-
+    * `getToken(hash bytes<32>) -> (enum<OK, ERR>, {OK: {token
+    bytes<32>, signature bytes<32>}, ERR: Error})`: Returns a
+    priority token signed for the given `hash`.
+95df45b97ac57700:
+  de: '* `getMessages(id bytes)`'
+  en: '* `getMessages(id bytes)`'
+9ac70f7af7c4e5f3:
+  de: '## Storage-API'
+  en: '## Storage API'
+9de8c6a244771dee:
+  de: '### Vermittler-Endpunkte'
+  en: '### Intermediary endpoints'
+9dee9e31a9609d16:
+  de: >-
+    * `getContactData(id bytes<16>, signature Signature) -> (enum<OK,
+    ERR>, {OK: EncryptedContactData, ERR: Error})`: Erlaubt das
+    Abrufen von verschlüsselten Kontaktdaten durch Gesundheitsämter.
+  en: >-
+    * `getContactData(id bytes<16>, signature Signature) -> (enum<OK,
+    ERR>, {OK: EncryptedContactData, ERR: Error})`: Allows health
+    departments to retrieve encrypted contact information.
+a362cde3a0ce911d:
+  de: >-
+    * `submitToken(token bytes<32>, encryptedData bytes<10,1024>,
+    queueId bytes<32>) -> (enum<OK, ERR>, {OK: nil, ERR: Error})`:
+    Reiht ein Prioritätstoken zusammen mit verschlüsselten Daten
+    in eine gegebene Einzugsliste ein.
+  en: >-
+    * `submitToken(token bytes<32>, encryptedData bytes<10,1024>,
+    queueId bytes<32>) -> (enum<OK, ERR>, {OK: nil, ERR: Error})`:
+    Enqueues a priority token along with encrypted data into a
+    given move-in list.
+ab316b057f304d0f:
+  de: >-
+    Die folgenden Endpunkte sind für Anbieter vorgesehen und nur
+    durch diese authentifiziert nutzbar.
+  en: >-
+    The following endpoints are intended for providers and can
+    only be used authenticated by them.
+acff6ce536019c8e:
+  de: >-
+    * `getMessages(id bytes) -> (enum<OK, ERR>, {OK: list<Message>,
+    ERR: Error})`: Liefert die unter einer gegebenen `id` für
+    den Nutzer gespeicherten Nachrichten zurück.
+  en: >-
+    * `getMessages(id bytes) -> (enum<OK, ERR>, {OK: list<Message>,
+    ERR: Error})`: Returns the messages stored under a given `id`
+    for the user.
+ae4da170d7d21220:
+  de: >-
+    * `submitToken(token bytes<32>, queueId bytes<32>) -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`
+  en: >-
+    * `submitToken(token bytes<32>, queueId bytes<32>) -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`
+b0cb2e32f56f1260:
+  de: '### Unauthentifizierte Endpunkte'
+  en: '### Unauthenticated endpoints'
+b6cda0e599158622:
+  de: >-
+    * `deleteMessages(id bytes) -> (enum<OK, ERR>, {OK: nil, ERR:
+    Error})`: Löscht alle unter der gegebenen `id` vorliegenden
+    Nachrichten.
+  en: >-
+    * `deleteMessages(id bytes) -> (enum<OK, ERR>, {OK: nil, ERR:
+    Error})`: Deletes all messages present at the given `id`.
+bce5a4cd377aaa67:
+  de: >-
+    Die folgenden Endpunkte sind für Vermittler vorgesehen und
+    nur durch diese authentifiziert nutzbar.
+  en: >-
+    The following endpoints are intended for intermediaries and
+    can only be used authenticated by them.
+be1edf4f796bdc63:
+  de: >-
+    * `notify(recipient EncryptedRecipient, messageType string)
+    -> (enum<OK, ERR>, {OK: nil, ERR: Error})`: Erlaubt die Speicherung
+    von Besuchsdaten durch einen Betreiber.
+  en: >-
+    * `notify(recipient EncryptedRecipient, messageType string)
+    -> (enum<OK, ERR>, {OK: nil, ERR: Error})`: Allows the storage
+    of visit data by an operator.
+c317a64c574cacfa:
+  de: >-
+    * `retractToken(token bytes<32>, queueId bytes<32>) -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`: Zieht ein Prioritätstoken zurück.
+  en: >-
+    * `retractToken(token bytes<32>, queueId bytes<32>) -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`: Withdraws a priority token.
+c352783fea176289:
+  de: '## Notifications-API'
+  en: '## Notifications API'
+c8f764aed0b7bcae:
+  de: >-
+    * `storeProviderData(data ProviderData) -> (enum<OK, ERR>,
+    {OK: nil, ERR: Error})`: Speichert Anbieterdaten zur Verifikation
+    durch einen Vermittler.
+  en: >-
+    * `storeProviderData(data ProviderData) -> (enum<OK, ERR>,
+    {OK: nil, ERR: Error})`: Stores provider data for verification
+    by an intermediary.
+c9b22a063d37f4aa:
+  de: '### Anbieter-Endpunkte'
+  en: '### Provider endpoints'
+cadd83b53a98ca6a:
+  de: Diese Endpunkte sind für Anbieter und Nutzer vorgesehen.
+  en: These endpoints are intended for providers and users.
+cd5a3655f71557ee:
+  de: >-
+    Die Appointments-API verfügt sowohl über unauthentifizierte
+    als auch authentifizierte Endpunkte.
+  en: >-
+    The Appointments API has both unauthenticated and authenticated
+    endpoints.
+ce95b46f0fa4055e:
+  de: >-
+    * `getMessages(id bytes<32>) -> (enum<OK, ERR>, {OK: list<EncryptedMessage>,
+    ERR: Error})`: Liefert die unter einer gegebenen `id` für
+    den Nutzer gespeicherten Nachrichten zurück.
+  en: >-
+    * `getMessages(id bytes<32>) -> (enum<OK, ERR>, {OK: list<EncryptedMessage>,
+    ERR: Error})`: Returns the messages stored under a given `id`
+    for the user.
+d02791fb5d67346e:
+  de: Diese Endpunkte sind lediglich für Nutzer vorgesehen.
+  en: These endpoints are intended for users only.
+d2fb7c41f4364ac0:
+  de: >-
+    * `storeSettings(id bytes<8-32>, data bytes<1,200kB>) -> enum<OK,
+    ERR>`: Erlaubt das Speichern von verschlüsselten Nutzer-Einstellungen
+    im Rahmen der Initialisierung.
+  en: >-
+    * `storeSettings(id bytes<8-32>, data bytes<1,200kB>) -> enum<OK,
+    ERR>`: Allows encrypted user settings to be saved as part
+    of the initialization process.
+de554019c283aba2:
+  de: >-
+    * `storeQueueData(data SignedQueueData)  -> (enum<OK, ERR>,
+    {OK: nil, ERR: Error})`: Speichert signierte Daten zu einer
+    Einzugsliste.
+  en: >-
+    * `storeQueueData(data SignedQueueData)  -> (enum<OK, ERR>,
+    {OK: nil, ERR: Error})`: Stores signed data for a move-in
+    list.
+e27ba2a127157a4b:
+  de: >-
+    Die Storage-API verfügt nur über unauthentifizierte Endpunkte.
+  en: The Storage API only has unauthenticated endpoints.
+e3b0c44298fc1c14:
+  de: ''
+  en: ''
+e4bd66fb8175e40a:
+  de: >-
+    * `getSettings(id bytes<8-32>) -> (enum<OK, ERR>, {OK: bytes<1,8192>,
+    ERR: Error})`: Erlaubt das Abrufen von verschlüsselten Benutzer-Einstellungen.
+  en: >-
+    * `getSettings(id bytes<8-32>) -> (enum<OK, ERR>, {OK: bytes<1,8192>,
+    ERR: Error})`: Allows retrieval of encrypted user settings.
+e71288b4fe12f256:
+  de: >-
+    * `markTokenAsUsed(token bytes<32>)`: Markiert ein gegebenes
+    Prioritätstoken als genutzt.
+  en: >-
+    * `markTokenAsUsed(token bytes<32>)`: Marks a given priority
+    token as used.
+ec9d3d3d0daed4f0:
+  de: '### Authentifizierte Endpunkte'
+  en: '### Authenticated endpoints'
+eda36ef472732d86:
+  de: >-
+    Diese Endpunkte sind für Nutzer und Betreiber-Server vorgesehen.
+  en: These endpoints are intended for users and operator servers.
+edfc0cbe3778d360:
+  de: >-
+    * `getOpenHashes() -> (enum<OK, ERR>, {OK: {hashes: list<bytes<16>>,
+    salt: bytes<16>}, ERR: Error})`: Erlaubt das Abfrufen aller
+    aktuell ausgeschriebenen Hashes.
+  en: >-
+    * `getOpenHashes() -> (enum<OK, ERR>, {OK: {hashes: list<bytes<16>>,
+    salt: bytes<16>}, ERR: Error})`: Allows retrieval of all currently
+    written out hashes.
+ee885546a7a38e90:
+  de: >-
+    * `storeTraces(traces list<RelatedTraces>) -> enum<OK, ERR>`:
+    Erlaubt die Einreichung von zu ausgeschriebenen Hashes relevanten
+    Besuchsdaten durch einen Betreiber.
+  en: >-
+    * `storeTraces(traces list<RelatedTraces>) -> enum<OK, ERR>`:
+    Allows the submission of visit data relevant to advertised
+    hashes by an operator.
+f592e728a4f01cd3:
+  de: >-
+    * `storeSettings(id bytes<32>, data bytes<1,200kB>) -> enum<OK,
+    ERR>`: Erlaubt das Speichern von verschlüsselten Nutzer-Einstellungen
+    im Rahmen der Initialisierung.
+  en: >-
+    * `storeSettings(id bytes<32>, data bytes<1,200kB>) -> enum<OK,
+    ERR>`: Allows encrypted user settings to be saved as part
+    of the initialization process.
+fb869c52ff3ec536:
+  de: >-
+    * `submitToken(token bytes<32>, queueId bytes<32>) -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`: Reiht ein Prioritätstoken in
+    eine gegebene Einzugsliste ein.
+  en: >-
+    * `submitToken(token bytes<32>, queueId bytes<32>) -> (enum<OK,
+    ERR>, {OK: nil, ERR: Error})`: Enqueues a priority token to
+    a given move-in list.
+fc397e731125519f:
+  de: >-
+    * `submitToken(token bytes<32>, encryptedData bytes, queueId
+    bytes<32>) -> (enum<OK, ERR>, {OK: nil, ERR: Error})`: Reiht
+    ein Prioritätstoken in eine gegebene Einzugsliste ein.
+  en: >-
+    * `submitToken(token bytes<32>, encryptedData bytes, queueId
+    bytes<32>) -> (enum<OK, ERR>, {OK: nil, ERR: Error})`: Enqueues
+    a priority token to a given move-in list.

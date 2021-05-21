@@ -1,0 +1,40 @@
+# Warning, this is an auto-generated file, do not modify!
+# Modify this file instead: site-all.yml
+pages:
+- name: ''
+  navtitle: Start
+  src: de/index.md
+  title: Kiebitz Dokumentation
+- children:
+  - name: ''
+    slug: ueberblick
+    src: de/system/index.md
+    title: Überblick
+  - name: apis
+    slug: apis
+    src: de/system/api.md
+    title: APIs
+  - name: apps
+    slug: apps
+    src: de/system/apps.md
+    title: Apps
+  name: system
+  slug: system
+  title: System
+- name: protocol
+  slug: protokoll
+  src: de/protocol/index.md
+  title: Protokoll
+- children: []
+  name: data-protection
+  slug: datenschutz
+  title: Datenschutz
+- children: []
+  name: analyses
+  slug: analysen
+  title: Analysen
+- name: imprint
+  slug: kontakt
+  src: de/imprint.md
+  title: Kontakt
+title: Kiebitz

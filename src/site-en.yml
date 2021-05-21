@@ -1,0 +1,40 @@
+# Warning, this is an auto-generated file, do not modify!
+# Modify this file instead: site-all.yml
+pages:
+- name: ''
+  navtitle: Start
+  src: en/index.md
+  title: Lapwing Documentation
+- children:
+  - name: ''
+    slug: overview
+    src: en/system/index.md
+    title: Overview
+  - name: apis
+    slug: apis
+    src: en/system/api.md
+    title: APIs
+  - name: apps
+    slug: apps
+    src: en/system/apps.md
+    title: Apps
+  name: system
+  slug: system
+  title: System
+- name: protocol
+  slug: protocol
+  src: en/protocol/index.md
+  title: Protocol
+- children: []
+  name: data-protection
+  slug: data-protection
+  title: Data protection
+- children: []
+  name: analyses
+  slug: analyses
+  title: Analyses
+- name: imprint
+  slug: contact
+  src: en/imprint.md
+  title: Contact
+title: Kiebitz

@@ -1,0 +1,55 @@
+4d3f58204a4dc531:
+  de: '# Anwendungen'
+  en: '# Applications'
+5a5d688990fcc99c:
+  de: '## Anbieter-Anwendung'
+  en: '## Provider application'
+640721242a4dbf50:
+  de: >-
+    Nutzer registrieren über die Nutzer-Web-App einen Prioritätstoken
+    und stellen eine Terminanfrage in einem Einzugsgebiet. Sobald
+    Sie ein Terminangebot erhalten wählen Sie einen konkreten
+    Termin und bestätigen diesen, oder lehnen das Angebot ab.
+  en: >-
+    Users register a priority token via the user web app and submit
+    an appointment request in a catchment area. As soon as you
+    receive an appointment offer, you select a specific appointment
+    and confirm or decline the offer.
+7d9b460f2e22b9bd:
+  de: "Anbieter registrieren sich über die Anbieter-Web-App, geben\
+    \ grundlegende Daten über Ihre Lokalität an und laden die\
+    \ verschlüsselten Daten zur Verifikation in das Termin-Backend\
+    \ hoch. Nach der Verifikation legen sie Termine an und die\
+    \ App verteilt diese automatisch an Nutzer.  "
+  en: "Providers register via the provider web app, enter basic\
+    \ data about their location and upload the encrypted data\
+    \ to the appointment backend for verification. After verification,\
+    \ they create appointments and the app automatically distributes\
+    \ them to users.  "
+94a04afeb249c229:
+  de: >-
+    Vermittler nutzen die Vermittler-Web-App um Anbieter zu verifizieren
+    und ggf. missbräuchlicher Nutzung des Systems nachzugehen
+    und diese zu unterbinden.
+  en: >-
+    Intermediaries use the Intermediary Web App to verify providers
+    and, if necessary, to investigate and prevent misuse of the
+    system.
+a6aa9c1eccb4418d:
+  de: >-
+    Kiebitz stellt verschiedene Anwendungen für Nutzer, Betreiber
+    von Ortschaften und Gesundheitsämter zur Verfügung, die hier
+    beschrieben werden.
+  en: >-
+    Kiebitz provides various applications for users, operators
+    of localities and health authorities, which are described
+    here.
+df59908bccb2b672:
+  de: '## Vermittler-Anwendung'
+  en: '## Agent application'
+e3b0c44298fc1c14:
+  de: ''
+  en: ''
+f26f420607f43df8:
+  de: '## Nutzer-Anwendung'
+  en: '## User application'

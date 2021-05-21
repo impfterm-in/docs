@@ -1,0 +1,113 @@
+08e5c9c5557a1d51:
+  de: >-
+    * Die **Gesundheitsamt-Anwendung** erlaubt die Anfrage von
+    Kontaktdaten durch Gesundheitsämter, den Abruf zurückgelieferter
+    Daten sowie die Entschlüsselung und Weiterverarbeitung dieser
+    Daten.
+  en: >-
+    * The **health department application** allows the request
+    of contact data by health departments, the retrieval of returned
+    data as well as the decryption and further processing of this
+    data.
+1aa01a86aec999f8:
+  de: >-
+    * **Notifications-Server** senden optional Benachrichtungen
+    an Nutzer (z.B. per E-Mail)
+  en: >-
+    * **Notification server** optionally sends notifications to
+    users (e.g. via e-mail)
+260850d6ec7d73b5:
+  de: >-
+    Die Gestaltung der Komponenten zielt darauf ab, ein System
+    zu erhalten das **redundant**, **dezentral**, **föderiert**,
+    **resilient**, **sicher** und **privatsphäre-freundlich**
+    ist. Dies wird über mehrere Aspekte erreicht:
+  en: >-
+    The design of the components aims to obtain a system that
+    is **redundant**, **decentralized**, **federated**, **resilient**,
+    **secure**, and **privacy-friendly**. This is achieved through
+    several aspects:
+373c7bd86bc6c93b:
+  de: >-
+    * Die **Scanner-Anwendung** erlaubt die Erfassung von Besuchsdaten
+    auf mobilen Endgeräten. Sie tausch über die **Operator-API**
+    mit der **Betreiber-Anwendung** Daten aus.
+  en: >-
+    * The **scanner application** allows the collection of visit
+    data on mobile devices. It exchanges data with the **operator
+    application via the operator** **API**.
+40d1b352f355c384:
+  de: >-
+    * Die **Betreiber-Anwendung** erlaubt die Erfassung von Besuchsdaten
+    durch Betreiber sowie die Übermittlung der Daten an einen
+    oder mehrere **Betreiber-Server**.
+  en: >-
+    * The **operator application** allows the collection of visit
+    data by operators and the transmission of the data to one
+    or more **operator servers**.
+4373a37f0686dee9:
+  de: >-
+    Das Kiebitz System besteht aus mehreren Komponenten, die unabhängig
+    voneinander und ohne zentrale Koordination eingesetzt werden
+    können. Gemeinsam bilden sie ein föderiertes, dezentrales
+    System zur Terminvermittlung.
+  en: >-
+    The Kiebitz system consists of several components that can
+    be used independently of each other and without central coordination.
+    Together they form a federated, decentralized system for appointment
+    scheduling.
+591c753666727a75:
+  de: 'Das Backend besteht aus drei verschiedenen Diensten:'
+  en: 'The backend consists of three different services:'
+61a4cafe3ecd1efa:
+  de: 'Zudem verfügt das System über mehrere Client-Anwendungen:'
+  en: 'In addition, the system has several client applications:'
+977ec95f09d00850:
+  de: >-
+    * Die **Nutzer-Anwendung** erlaubt die Initialisierung der
+    Kontaktnachverfolgung für Nutzer.
+  en: >-
+    * The **user application** allows initialization of contact
+    tracking for users.
+9d4897337454badc:
+  de: '### Dezentralität'
+  en: '### Decentralisation'
+a3e8b0a55613a403:
+  de: >-
+    * **Appointment-Server** speichern Prioritätstoken von Nutzern
+    in Listen von Einzugsgebieten, geben diese an Anbieter weiter
+    und vermitteln die verschlüsselte Kommunikation zwischen Anbietern
+    und Nutzern.
+  en: >-
+    * **Appointment servers** store priority tokens of users in
+    lists of catchment areas, pass them on to providers, and mediate
+    encrypted communication between providers and users.
+b5e866f898ab575c:
+  de: >-
+    Es gibt im Kiebitz System prinzipiell keine zentrale Stelle,
+    die den Betrieb des Gesamtsystems kontrolliert. Alle Server-Typen
+    können unabhängig betrieben werden. Die funktionale Einbindung
+    erfolgt über einen Vertrauensansatz im Rahmen eines "Web of
+    Trust".
+  en: >-
+    In the Kiebitz system, there is basically no central office
+    that controls the operation of the entire system. All server
+    types can be operated independently. The functional integration
+    takes place via a trust approach within the framework of a
+    "Web of Trust".
+e3b0c44298fc1c14:
+  de: ''
+  en: ''
+f333d5de51bac083:
+  de: >-
+    * **Storage-Server** speichern optional verschlüsselte Einstellungen
+    von Nutzern und Anbietern.
+  en: >-
+    * **Storage servers** optionally store encrypted user and
+    provider settings.
+fd8e83dfadc0d044:
+  de: '## Systemkonzept'
+  en: '## System concept'
+fdd02315cf58c169:
+  de: '# Überblick'
+  en: '# Overview'
