@@ -1,3 +1,11 @@
+01525efbaaadd967:
+  de: >-
+    <md-list v="*"><md-code>markTokenAsUsed(token bytes<32>)</md-code>:
+    Markiert ein gegebenes Prioritätstoken als genutzt. Es kann
+    dann nicht mehr genutzt werden.</md-list>
+  en: >-
+    * `markTokenAsUsed(token bytes<32>)` Marks a given priority
+    token as used. It can then no longer be used.
 036c18e3e222b771:
   de: Diese Endpunkte sind für Nutzer und Anbieter vorgesehen.
   en: These endpoints are intended for users and providers.
@@ -17,12 +25,23 @@
     * `getTransferData(id bytes<8-32>) -> (enum<OK, ERR>, {OK:
     bytes<1,8192>, ERR: Error})`: Allows retrieval of encrypted
     exchange data.
+09424d1af006e209:
+  de: >-
+    <md-list v="*"><md-code>deleteProviderData()  -> (enum<OK,
+    ERR>, <ignore v="e09LOiBuaWwsIEVSUjogRXJyb3J9" />)</md-code>:
+    Löscht Anbieterdaten.</md-list>
+  en: >-
+    * `deleteProviderData()  -> (enum <OK, ERR>, {OK: nil, ERR:
+    Error})` : Deletes provider data.
 0bc60f9b021e430f:
   de: '### Nutzer-Anbieter Endpunkte'
   en: '### User-Provider Endpoints'
 0bcedb383f1322d4:
   de: '### Nutzer-Endpunkte'
   en: '### User endpoints'
+0cd04cbf935779a4:
+  de: <md-heading v="##">Notifications-API</md-heading>
+  en: '## Notifications API'
 0fef7f53cd121a9c:
   de: '## Appointments-API'
   en: '## Appointments API'
@@ -107,6 +126,35 @@
   en: >-
     The Kibitz backend system consists of several services, each
     providing independent JSON-RPC APIs:
+2a0a61f9068131ea:
+  de: >-
+    <md-list v="*"><md-code>storeProviderData(data ProviderData)
+    -> (enum<OK, ERR>, <ignore v="e09LOiBuaWwsIEVSUjogRXJyb3J9"
+    />)</md-code>: Speichert Anbieterdaten zur Verifikation durch
+    einen Vermittler.</md-list>
+  en: >-
+    * `storeProviderData(data ProviderData) -> (enum <OK, ERR>,
+    {OK: nil, ERR: Error})` : Stores provider data for verification
+    by an intermediary.
+2df3cf1e624ccb32:
+  de: >-
+    <md-list v="*"><md-code>notify(recipient EncryptedRecipient,
+    messageType string) -> (enum<OK, ERR>, <ignore v="e09LOiBuaWwsIEVSUjogRXJyb3J9"
+    />)</md-code>: Erlaubt die Speicherung von Besuchsdaten durch
+    einen Betreiber.</md-list>
+  en: >-
+    * `notify(recipient EncryptedRecipient, messageType string)
+    -> (enum <OK, ERR>, {OK: nil, ERR: Error})` : Allows the storage
+    of visit data by an operator.
+2f3fb32e7159d797:
+  de: >-
+    <md-list v="*"><md-code>storeQueueData(data SignedQueueData)  ->
+    (enum<OK, ERR>, <ignore v="e09LOiBuaWwsIEVSUjogRXJyb3J9" />)</md-code>:
+    Speichert signierte Daten zu einer Einzugsliste.</md-list>
+  en: >-
+    * `storeQueueData(data SignedQueueData)  -> (enum <OK, ERR>,
+    {OK: nil, ERR: Error})` : Stores signed data for a move-in
+    list.
 361996ed35cd4f9e:
   de: >-
     * Eine **Appointments-API**, die verschlüsselte Kontaktdaten
@@ -114,6 +162,9 @@
   en: >-
     * An **Appointments API** that stores encrypted contact data,
     publishes hashes, and accepts visit data.
+37f5d07dbc895984:
+  de: <md-heading v="###">Nutzer-Anbieter Endpunkte</md-heading>
+  en: '### User-Provider Endpoints'
 39d84c8074ae954b:
   de: '# APIs'
   en: '# APIs'
@@ -176,6 +227,14 @@
   en: >-
     * `deleteVerifiedProviderData(id bytes<id>)  -> (enum<OK,
     ERR>, {OK: nil, ERR: Error})`: Deletes provider data.
+4a24ad18483375e1:
+  de: >-
+    <md-list v="*">Eine <md-strong>Storage-API</md-strong>, die
+    (optional) verschlüsselte Einstellungen von Nutzern und Anbietern
+    speichert.</md-list>
+  en: >-
+    * A **storage API** that (optionally) stores encrypted user
+    and provider settings.
 4caea7ea6c2fb651:
   de: >-
     * `submitToken(token bytes<32>, encryptedData bytes<,1024>,
@@ -185,6 +244,9 @@
     * `submitToken(token bytes<32>, encryptedData bytes<,1024>,
     queueId bytes<32>) -> (enum<OK, ERR>, {OK: nil, ERR: Error})`:
     Enqueues a priority token to a given move-in list.
+4fa09caaa3264f12:
+  de: <md-heading v="##">Appointments-API</md-heading>
+  en: '## Appointments API'
 52dd41f967185ba3:
   de: >-
     * `notify(recipient EncryptedRecipient,) -> enum<OK, ERR>`:
@@ -247,6 +309,18 @@
     * `getAllHashes() -> (enum<OK, ERR>, {OK: {hashes: list<bytes<16>>,
     salt: bytes<16>}, ERR: Error})`: Allows retrieval of all hashes
     ever written out.
+662691ad8410829f:
+  de: >-
+    <md-list v="*"><md-code>deleteVerifiedProviderData(id bytes<32>)  ->
+    (enum<OK, ERR>, <ignore v="e09LOiBuaWwsIEVSUjogRXJyb3J9" />)</md-code>:
+    Löscht verifizierte Anbieterdaten.</md-list>
+  en: >-
+    * `deleteVerifiedProviderData(id bytes<32>)  -> (enum <OK,
+    ERR>, {OK: nil, ERR: Error})` : Deletes verified provider
+    data.
+6da7112146bb3f3f:
+  de: <md-heading v="##">Storage-API</md-heading>
+  en: '## Storage API'
 70a661e9a38f0ec3:
   de: >-
     * `getSettings(id bytes<32>) -> (enum<OK, ERR>, {OK: bytes<1,8192>,
@@ -254,6 +328,14 @@
   en: >-
     * `getSettings(id bytes<32>) -> (enum<OK, ERR>, {OK: bytes<1,8192>,
     ERR: Error})`: Allows retrieval of encrypted user settings.
+71ec6743528d0eaa:
+  de: >-
+    <md-list v="*"><md-code>getSettings(id bytes<32>) -> (enum<OK,
+    ERR>, <ignore v="e09LOiBieXRlczwxLDgxOTI-LCBFUlI6IEVycm9yfQ=="
+    />)</md-code>: Erlaubt das Abrufen von verschlüsselten Benutzer-Einstellungen.</md-list>
+  en: >-
+    * `getSettings(id bytes<32>) -> (enum <OK, ERR>, {OK: bytes<1,8192>,
+    ERR: Error})` : Allows you to retrieve encrypted user settings.
 749009d6bcb98d30:
   de: >-
     * Eine **Notifications-API**, die optional Benachrichtigungen
@@ -279,6 +361,21 @@
     (enum<OK, ERR>, {OK: nil, ERR: Error})`: Saves a message under
     the given `id`. Only providers can save messages under a previously
     unknown `id`.
+839f50229653de03:
+  de: >-
+    <md-list v="*">Eine <md-strong>Notifications-API</md-strong>,
+    die optional Benachrichtigungen an Nutzer verschickt.</md-list>
+  en: >-
+    * A **Notifications API** that optionally sends notifications
+    to users.
+844c660e343e45d4:
+  de: >-
+    <md-list v="*">Eine <md-strong>Appointments-API</md-strong>,
+    die verschlüsselte Kontaktdaten speichert, Hashes publiziert
+    und Besuchsdaten entgegennimmt.</md-list>
+  en: >-
+    * An **Appointments API** that stores encrypted contact data,
+    publishes hashes, and accepts visit data.
 8fa3e4747a170fa8:
   de: >-
     * `getToken(hash bytes<32>) -> (enum<OK, ERR>, {OK: {token
@@ -288,9 +385,15 @@
     * `getToken(hash bytes<32>) -> (enum<OK, ERR>, {OK: {token
     bytes<32>, signature bytes<32>}, ERR: Error})`: Returns a
     priority token signed for the given `hash`.
+927097b4f2f7a165:
+  de: <md-heading v="###">Nutzer-Endpunkte</md-heading>
+  en: '### User endpoints'
 95df45b97ac57700:
   de: '* `getMessages(id bytes)`'
   en: '* `getMessages(id bytes)`'
+9632deee47d41d29:
+  de: <md-heading v="###">Vermittler-Endpunkte</md-heading>
+  en: '### Intermediary endpoints'
 9ac70f7af7c4e5f3:
   de: '## Storage-API'
   en: '## Storage API'
@@ -324,6 +427,16 @@ ab316b057f304d0f:
   en: >-
     The following endpoints are intended for providers and can
     only be used authenticated by them.
+ac26772d4f6d5f59:
+  de: >-
+    <md-list v="*"><md-code>getMessages(id bytes<32>) -> (enum<OK,
+    ERR>, <ignore v="e09LOiBsaXN0PEVuY3J5cHRlZE1lc3NhZ2U-LCBFUlI6IEVycm9yfQ=="
+    />)</md-code>: Liefert die unter einer gegebenen <md-code>id</md-code>
+    für den Nutzer gespeicherten Nachrichten zurück.</md-list>
+  en: >-
+    * `getMessages(id bytes<32>) -> (enum <OK, ERR>, {OK: list<EncryptedMessage>,
+    ERR: Error})` : Returns the messages stored under a given
+    `id` for the user.
 acff6ce536019c8e:
   de: >-
     * `getMessages(id bytes) -> (enum<OK, ERR>, {OK: list<Message>,
@@ -343,6 +456,15 @@ ae4da170d7d21220:
 b0cb2e32f56f1260:
   de: '### Unauthentifizierte Endpunkte'
   en: '### Unauthenticated endpoints'
+b146dd01a1e511d4:
+  de: >-
+    <md-list v="*"><md-code>storeVerifiedProviderData(data SignedProviderData)  ->
+    (enum<OK, ERR>, <ignore v="e09LOiBuaWwsIEVSUjogRXJyb3J9" />)</md-code>:
+    Speichert verifizierte, signierte Anbieterdaten.</md-list>
+  en: >-
+    * `storeVerifiedProviderData(data SignedProviderData)  ->
+    (enum <OK, ERR>, {OK: nil, ERR: Error})` : Stores verified,
+    signed provider data.
 b6cda0e599158622:
   de: >-
     * `deleteMessages(id bytes) -> (enum<OK, ERR>, {OK: nil, ERR:
@@ -351,6 +473,30 @@ b6cda0e599158622:
   en: >-
     * `deleteMessages(id bytes) -> (enum<OK, ERR>, {OK: nil, ERR:
     Error})`: Deletes all messages present at the given `id`.
+baab0666c7f3f281:
+  de: >-
+    <md-list v="*"><md-code>submitToken(token bytes<32>, encryptedData
+    bytes<10,1024>, queueId bytes<32>) -> (enum<OK, ERR>, <ignore
+    v="e09LOiBuaWwsIEVSUjogRXJyb3J9" />)</md-code>: Reiht ein
+    Prioritätstoken zusammen mit verschlüsselten Daten in eine
+    gegebene Einzugsliste ein.</md-list>
+  en: >-
+    * `submitToken(token bytes<32>, encryptedData bytes<10,1024>,
+    queueId bytes<32>) -> (enum <OK, ERR>, {OK: nil, ERR: Error})`
+    : Enqueues a priority token along with encrypted data into
+    a given indent list.
+bad2a8cf3498ba49:
+  de: <md-heading v="#">APIs</md-heading>
+  en: '# APIs'
+bb4cd8780d09f306:
+  de: >-
+    <md-list v="*"><md-code>storeSettings(id bytes<32>, data bytes<1,200kB>)
+    -> enum<OK, ERR></md-code>: Erlaubt das Speichern von verschlüsselten
+    Nutzer-Einstellungen im Rahmen der Initialisierung.</md-list>
+  en: >-
+    * `storeSettings(id bytes<32>, data bytes<1,200kB>) -> enum
+    <OK, ERR>` : Allows encrypted user settings to be saved as
+    part of the initialization process.
 bce5a4cd377aaa67:
   de: >-
     Die folgenden Endpunkte sind für Vermittler vorgesehen und
@@ -420,6 +566,28 @@ d2fb7c41f4364ac0:
     * `storeSettings(id bytes<8-32>, data bytes<1,200kB>) -> enum<OK,
     ERR>`: Allows encrypted user settings to be saved as part
     of the initialization process.
+d374f683d30e426b:
+  de: >-
+    <md-list v="*"><md-code>deleteMessages(id bytes<32>) -> (enum<OK,
+    ERR>, <ignore v="e09LOiBuaWwsIEVSUjogRXJyb3J9" />)</md-code>:
+    Löscht alle unter der gegebenen <md-code>id</md-code> vorliegenden
+    Nachrichten.</md-list>
+  en: >-
+    * `deleteMessages(id bytes<32>) -> (enum <OK, ERR>, {OK: nil,
+    ERR: Error})` : Deletes all messages present at the given
+    `id`.
+d4fe7a688b111dc0:
+  de: >-
+    <md-list v="*"><md-code>postMessage(id bytes<32>, message
+    EncryptedMessage) -> (enum<OK, ERR>, <ignore v="e09LOiBuaWwsIEVSUjogRXJyb3J9"
+    />)</md-code>: Speichert eine Nachricht unter der gegebenen
+    <md-code>id</md-code>. Lediglich Anbieter können Nachrichten
+    unter eine bis dato unbekannten <md-code>id</md-code> speichern.</md-list>
+  en: >-
+    * `postMessage(id bytes<32>, message EncryptedMessage) ->
+    (enum <OK, ERR>, {OK: nil, ERR: Error})` Saves a message under
+    the given `id`. Only providers can save messages under a previously
+    unknown `id`.
 de554019c283aba2:
   de: >-
     * `storeQueueData(data SignedQueueData)  -> (enum<OK, ERR>,
@@ -429,6 +597,16 @@ de554019c283aba2:
     * `storeQueueData(data SignedQueueData)  -> (enum<OK, ERR>,
     {OK: nil, ERR: Error})`: Stores signed data for a move-in
     list.
+e08281b500802e38:
+  de: >-
+    <md-list v="*"><md-code>getToken(hash bytes<32>) -> (enum<OK,
+    ERR>, <ignore v="e09LOiB7dG9rZW4gYnl0ZXM8MzI-LCBzaWduYXR1cmUgYnl0ZXM8MzI-fQ=="
+    />, ERR: Error})</md-code>: Liefert ein für den gegebenen
+    <md-code>hash</md-code> signiertes Prioritätstoken zurück.</md-list>
+  en: >-
+    * `getToken(hash bytes<32>) -> (enum <OK, ERR>, {OK: {token
+    bytes<32>, signature bytes<32>}, ERR: Error})` : Returns a
+    priority token signed for the given `hash`.
 e27ba2a127157a4b:
   de: >-
     Die Storage-API verfügt nur über unauthentifizierte Endpunkte.
@@ -443,6 +621,14 @@ e4bd66fb8175e40a:
   en: >-
     * `getSettings(id bytes<8-32>) -> (enum<OK, ERR>, {OK: bytes<1,8192>,
     ERR: Error})`: Allows retrieval of encrypted user settings.
+e6255aebad7d519d:
+  de: >-
+    <md-list v="*"><md-code>deleteQueueData(id bytes<32>)  ->
+    (enum<OK, ERR>, <ignore v="e09LOiBuaWwsIEVSUjogRXJyb3J9" />)</md-code>:
+    Löscht Daten zu einer Einzugsliste.</md-list>
+  en: >-
+    * `deleteQueueData(id bytes<32>)  -> (enum <OK, ERR>, {OK:
+    nil, ERR: Error})` Deletes data for a move-in list.
 e71288b4fe12f256:
   de: >-
     * `markTokenAsUsed(token bytes<32>)`: Markiert ein gegebenes
@@ -475,6 +661,18 @@ ee885546a7a38e90:
     * `storeTraces(traces list<RelatedTraces>) -> enum<OK, ERR>`:
     Allows the submission of visit data relevant to advertised
     hashes by an operator.
+f095b22467bbb286:
+  de: >-
+    <md-list v="*"><md-code>retractToken(token bytes<32>, queueId
+    bytes<32>) -> (enum<OK, ERR>, <ignore v="e09LOiBuaWwsIEVSUjogRXJyb3J9"
+    />)</md-code>: Zieht ein Prioritätstoken zurück.</md-list>
+  en: >-
+    * `retractToken(token bytes<32>, queueId bytes<32>) -> (enum
+    <OK, ERR>, {OK: nil, ERR: Error})` : Withdraws a priority
+    token.
+f22335927c601f82:
+  de: <md-heading v="###">Anbieter-Endpunkte</md-heading>
+  en: '### Provider endpoints'
 f592e728a4f01cd3:
   de: >-
     * `storeSettings(id bytes<32>, data bytes<1,200kB>) -> enum<OK,

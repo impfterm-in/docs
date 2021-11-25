@@ -5,6 +5,24 @@
   en: >-
     * Possibilities for misuse of the system are largely excluded
     by technical and organisational measures.
+00a8ae2d0ef21c29:
+  de: <md-heading v="#">Willkommen!</md-heading>
+  en: '# Welcome!'
+02bcde15cef32e39:
+  de: >-
+    <md-list v="*">Kontaktdaten und Termindetails werden Ende-zu-Ende
+    verschlüsselt zwischen Nutzern und Anbietern ausgetauscht.</md-list>
+  en: >-
+    * Contact details and appointment details are exchanged end-to-end
+    encrypted between users and providers.
+16b251e2fd636ae4:
+  de: >-
+    <md-list v="*">Möglichkeiten zur Zweckentfremdung des Systems
+    werden durch technische und organisatorische Maßnahmen weitgehend
+    ausgeschlossen.</md-list>
+  en: >-
+    * Possibilities for misuse of the system are largely excluded
+    by technical and organisational measures.
 176e1607b5268786:
   de: >-
     * Einzelne System-Komponenten können föderiert und unabhängig
@@ -12,12 +30,37 @@
   en: >-
     * Individual system components can be federated and operated
     independently.
+27e3d5c50d7c1b01:
+  de: >-
+    Kiebitz ist eine <md-link href="aHR0cHM6Ly9naXRodWIuY29tL2tpZWJpdHotb3Nz">quelloffene</md-link>,
+    kostenlose und frei nutzbare Software-Lösung zur privatsphäre-freundlichen
+    Terminvermittlung. Diese Seite dokumentiert das Protokoll
+    und die Anwendungen aus denen Kiebitz besteht.
+  en: >-
+    Kiebitz is an [open source](https://github.com/kiebitz-oss),
+    free and freely usable software solution for privacy-friendly
+    appointment scheduling. This page documents the protocol and
+    applications that make up Kiebitz.
+342c90a4d2e91334:
+  de: >-
+    <md-list v="*">Alle Komponenten und Protokolle sind quelloffen
+    und können frei genutzt und auditiert werden.</md-list>
+  en: >-
+    * All components and protocols are open source and can be
+    freely used and audited.
 3956494063c9ddc7:
   de: '## Was Kiebitz ausmacht'
   en: '## What makes lapwing'
 3d111a9375d5e0d4:
   de: '# Willkommen!'
   en: '# Welcome!'
+4f3bcfd2f0ac4c16:
+  de: >-
+    <md-list v="*">Einzelne System-Komponenten können föderiert
+    und unabhängig voneinander betrieben werden.</md-list>
+  en: >-
+    * Individual system components can be federated and operated
+    independently.
 57bf8fc2b2f55723:
   de: >-
     * Alle Komponenten und Protokolle sind quelloffen und können
@@ -43,6 +86,16 @@
     free and freely usable software solution for privacy-friendly
     appointment scheduling. This page documents the protocol and
     applications that make up Kiebitz.
+9f6def78b16247cf:
+  de: <md-heading v="##">Was Kiebitz ausmacht</md-heading>
+  en: '## What makes lapwing'
+c01b0a73ddf83e68:
+  de: >-
+    <md-list v="*">Profilierungsmöglichkeiten durch Metadaten-Analyse
+    im Terminvermittlungsprozess werden systematisch minimiert.</md-list>
+  en: >-
+    * Profiling opportunities through metadata analysis in the
+    appointment brokering process are systematically minimized.
 e13e76604c65246a:
   de: >-
     * Profilierungsmöglichkeiten durch Metadaten-Analyse im Terminvermittlungsprozess

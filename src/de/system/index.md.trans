@@ -27,6 +27,13 @@
     is **redundant**, **decentralized**, **federated**, **resilient**,
     **secure**, and **privacy-friendly**. This is achieved through
     several aspects:
+360979afc8d99fdd:
+  de: >-
+    <md-list v="*"><md-strong>Storage-Server</md-strong> speichern
+    optional verschlüsselte Einstellungen von Nutzern und Anbietern.</md-list>
+  en: >-
+    * **Storage servers** optionally store encrypted user and
+    provider settings.
 373c7bd86bc6c93b:
   de: >-
     * Die **Scanner-Anwendung** erlaubt die Erfassung von Besuchsdaten
@@ -36,6 +43,35 @@
     * The **scanner application** allows the collection of visit
     data on mobile devices. It exchanges data with the **operator
     application via the operator** **API**.
+37a79a49f28738d7:
+  de: >-
+    <md-list v="*">Die <md-strong>Scanner-Anwendung</md-strong>
+    erlaubt die Erfassung von Besuchsdaten auf mobilen Endgeräten.
+    Sie tausch über die <md-strong>Operator-API</md-strong> mit
+    der <md-strong>Betreiber-Anwendung</md-strong> Daten aus.</md-list>
+  en: >-
+    * The **scanner application** allows the collection of visit
+    data on mobile devices. It exchanges data with the **operator
+    application via the operator** **API**.
+3a4a35fdb9a54571:
+  de: >-
+    <md-list v="*">Die <md-strong>Nutzer-Anwendung</md-strong>
+    erlaubt die Initialisierung der Kontaktnachverfolgung für
+    Nutzer.</md-list>
+  en: >-
+    * The **user application** allows initialization of contact
+    tracking for users.
+3ad3c99960da07f2:
+  de: >-
+    <md-list v="*">Die <md-strong>Gesundheitsamt-Anwendung</md-strong>
+    erlaubt die Anfrage von Kontaktdaten durch Gesundheitsämter,
+    den Abruf zurückgelieferter Daten sowie die Entschlüsselung
+    und Weiterverarbeitung dieser Daten.</md-list>
+  en: >-
+    * The **health department application** allows the request
+    of contact data by health departments, the retrieval of returned
+    data as well as the decryption and further processing of this
+    data.
 40d1b352f355c384:
   de: >-
     * Die **Betreiber-Anwendung** erlaubt die Erfassung von Besuchsdaten
@@ -56,6 +92,15 @@
     be used independently of each other and without central coordination.
     Together they form a federated, decentralized system for appointment
     scheduling.
+49bd97414be32043:
+  de: >-
+    <md-list v="*">Die <md-strong>Betreiber-Anwendung</md-strong>
+    erlaubt die Erfassung von Besuchsdaten durch Betreiber sowie
+    die Übermittlung der Daten an einen oder mehrere <md-strong>Betreiber-Server</md-strong>.</md-list>
+  en: >-
+    * The **operator application** allows the collection of visit
+    data by operators and the transmission of the data to one
+    or more **operator servers**.
 591c753666727a75:
   de: 'Das Backend besteht aus drei verschiedenen Diensten:'
   en: 'The backend consists of three different services:'
@@ -82,6 +127,16 @@ a3e8b0a55613a403:
     * **Appointment servers** store priority tokens of users in
     lists of catchment areas, pass them on to providers, and mediate
     encrypted communication between providers and users.
+b2d4836ed493ba46:
+  de: <md-heading v="##">Systemkonzept</md-heading>
+  en: '## System concept'
+b47c461934681f13:
+  de: >-
+    <md-list v="*"><md-strong>Notifications-Server</md-strong>
+    senden optional Benachrichtungen an Nutzer (z.B. per E-Mail)</md-list>
+  en: >-
+    * **Notification server** optionally sends notifications to
+    users (e.g. via e-mail)
 b5e866f898ab575c:
   de: >-
     Es gibt im Kiebitz System prinzipiell keine zentrale Stelle,
@@ -95,6 +150,16 @@ b5e866f898ab575c:
     types can be operated independently. The functional integration
     takes place via a trust approach within the framework of a
     "Web of Trust".
+b726f9a00239bfd4:
+  de: >-
+    <md-list v="*"><md-strong>Appointment-Server</md-strong> speichern
+    Prioritätstoken von Nutzern in Listen von Einzugsgebieten,
+    geben diese an Anbieter weiter und vermitteln die verschlüsselte
+    Kommunikation zwischen Anbietern und Nutzern.</md-list>
+  en: >-
+    * **Appointment servers** store priority tokens of users in
+    lists of catchment areas, pass them on to providers, and mediate
+    encrypted communication between providers and users.
 e3b0c44298fc1c14:
   de: ''
   en: ''
@@ -105,6 +170,9 @@ f333d5de51bac083:
   en: >-
     * **Storage servers** optionally store encrypted user and
     provider settings.
+f471bd0423b3adc7:
+  de: <md-heading v="#">Überblick</md-heading>
+  en: '# Overview'
 fd8e83dfadc0d044:
   de: '## Systemkonzept'
   en: '## System concept'

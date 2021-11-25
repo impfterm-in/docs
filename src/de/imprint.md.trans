@@ -1,6 +1,9 @@
 086b3d6daeb67685:
   de: <pre>
   en: <pre>
+1c52ea5e7c5ddac4:
+  de: <md-heading v="##">Impressum</md-heading>
+  en: '## Imprint'
 26641ca95825f90b:
   de: >-
     Wenn Sie erfahren möchten, wie Sie Kiebitz einsetzen können
@@ -18,9 +21,24 @@
 485b0c2c3b23c2f8:
   de: </pre>
   en: </pre>
+49aa70179bcb6929:
+  de: >-
+    Wenn Sie erfahren möchten, wie Sie Kiebitz einsetzen können
+    <md-link href="bWFpbHRvOmtvbnRha3RAa2llYml0ei5ldQ==">kontaktieren
+    Sie uns</md-link>, wir unterstützen und beraten Sie gerne
+    kostenlos und unverbindlich zu Einsatzmöglichkeiten und Betrieb
+    der Software!
+  en: >-
+    If you would like to know how you can use Kiebitz, [please
+    contact us](mailto:kontakt@kiebitz.eu). We will be happy to
+    support and advise you free of charge and without obligation
+    on the possible uses and operation of the software!
 49eb24d5eac498a0:
   de: '## Impressum'
   en: '## Imprint'
+5b6dff5ae7987128:
+  de: <md-heading v="##">Kontaktieren Sie uns</md-heading>
+  en: '## Contact us'
 5dc1f428c4a9e2e3:
   de: '## Datenschutz'
   en: '## Data protection'
@@ -34,6 +52,13 @@
 6a0aa249b91ff6ab:
   de: Andreas Dewes
   en: Andrew Dewes
+792b38693f29bab6:
+  de: >-
+    Veranwortlich für den Inhalt dieser Seiten ist Andreas Dewes.
+    Sie erreichen mich am Besten per <md-link href="bWFpbHRvOmtvbnRha3RAa2llYml0ei5ldQ==">E-Mail</md-link>.
+  en: >-
+    Responsible for the content of these pages is Andreas Dewes.
+    You can reach me best by [e-mail](mailto:kontakt@kiebitz.eu).
 7b9bc74960f17a5d:
   de: >-
     Der im Sinne der DSGVO Verantwortliche ist ebenfalls <strong>Andreas
@@ -47,6 +72,9 @@
     third-party resources such as analytics trackers or embedded
     content. If such content (e.g. external videos) is used, this
     is only done with the explicit consent of the user.
+a3825b9b77f1237c:
+  de: <md-heading v="##">Datenschutz</md-heading>
+  en: '## Data protection'
 b10f57ef6daef759:
   de: 10707 Berlin
   en: 10707 Berlin
