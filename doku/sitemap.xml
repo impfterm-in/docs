@@ -3,21 +3,21 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
   xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
+    <loc>https://kiebitz.eu/doku</loc>
+  </url>
+  <url>
     <loc>https://kiebitz.eu/doku/kontakt</loc>
+  </url>
+  <url>
+    <loc>https://kiebitz.eu/doku/system/apis</loc>
+  </url>
+  <url>
+    <loc>https://kiebitz.eu/doku/system/apps</loc>
   </url>
   <url>
     <loc>https://kiebitz.eu/doku/protokoll</loc>
   </url>
   <url>
     <loc>https://kiebitz.eu/doku/system/ueberblick</loc>
-  </url>
-  <url>
-    <loc>https://kiebitz.eu/doku/system/apps</loc>
-  </url>
-  <url>
-    <loc>https://kiebitz.eu/doku/system/apis</loc>
-  </url>
-  <url>
-    <loc>https://kiebitz.eu/doku</loc>
   </url>
 </urlset>
