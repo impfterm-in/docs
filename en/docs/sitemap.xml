@@ -6,18 +6,18 @@
     <loc>https://kiebitz.eu/en/docs/system/overview</loc>
   </url>
   <url>
-    <loc>https://kiebitz.eu/en/docs/protocol</loc>
+    <loc>https://kiebitz.eu/en/docs/system/apis</loc>
   </url>
   <url>
     <loc>https://kiebitz.eu/en/docs</loc>
   </url>
   <url>
-    <loc>https://kiebitz.eu/en/docs/system/apps</loc>
-  </url>
-  <url>
     <loc>https://kiebitz.eu/en/docs/contact</loc>
   </url>
   <url>
-    <loc>https://kiebitz.eu/en/docs/system/apis</loc>
+    <loc>https://kiebitz.eu/en/docs/protocol</loc>
+  </url>
+  <url>
+    <loc>https://kiebitz.eu/en/docs/system/apps</loc>
   </url>
 </urlset>
