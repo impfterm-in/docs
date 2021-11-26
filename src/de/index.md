@@ -1,5 +1,7 @@
 # Willkommen!
 
+**Achtung, diese Dokumentation ist aktuell veraltet und wird gerade überarbeitet.**
+
 Kiebitz ist eine [quelloffene](https://github.com/kiebitz-oss), kostenlose und frei nutzbare Software-Lösung zur privatsphäre-freundlichen Terminvermittlung. Diese Seite dokumentiert das Protokoll und die Anwendungen aus denen Kiebitz besteht.
 
 ## Was Kiebitz ausmacht
