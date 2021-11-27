@@ -2,7 +2,7 @@
 
 Kiebitz is an [open source](https://github.com/kiebitz-oss), free and freely usable software solution for privacy-friendly appointment scheduling. This page documents the protocol and applications that make up Kiebitz.
 
-## What makes lapwing
+## The characteristics of Kiebitz[^1]
 
 Kiebitz systematically minimizes privacy & security risks for users of the system:
 
@@ -11,3 +11,5 @@ Kiebitz systematically minimizes privacy & security risks for users of the syste
 * Individual system components can be federated and operated independently.
 * All components and protocols are open source and can be freely used and audited.
 * Possibilities for misuse of the system are largely excluded by technical and organisational measures.
+
+ [^1]: German for lapwing
